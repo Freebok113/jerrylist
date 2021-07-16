@@ -7,7 +7,7 @@ app.use('/mindmap', express.static(path.join(__dirname, 'mindmap')));
 app.get('/', function(req, res){
 	console.log("method in get/: " + req.method);
     var qs = require('querystring');
-   res.send("Hello World");
+   res.send("Hello World Frederik");
 });
 
 app.post("/", function(req, res){
